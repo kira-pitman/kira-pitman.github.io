@@ -1,6 +1,13 @@
+body {
+}
+
+h1 {
+  color: blanchedalmond;
+}
+
 .blog-title h1 {
   color: blanchedalmond;
-  background-color: darkslategray;
+  background-color: #171717;
 }
 
 .tech-title {
