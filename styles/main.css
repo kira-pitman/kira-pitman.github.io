@@ -1,24 +1,17 @@
 .Kira {
   color: blanchedalmond;
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
   src: url('/Montserrat-Regular.ttf');
   font-size: 100px;
 }
 
-.blog-title {
-  color: blanchedalmond;
-  background-color: #2c2a2a;
-}
-
-.tech-title {
-  color: blanchedalmond;
-}
-.core-title {
-  color: blanchedalmond;
-}
-
 h1 {
   text-align: center;
+}
+
+.aboutme {
+  color: blanchedalmond;
+  font-size: 35px;
 }
 
 div {
@@ -28,17 +21,47 @@ div {
 body {
   background-color: #2c2a2a;
   opacity: 0.8;
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
 }
 
-.aboutme {
+/*Title code*/
+
+.blog-title {
   color: blanchedalmond;
+  font-size: 80px;
+  text-align: center;
 }
+
+.tech-title {
+  color: blanchedalmond;
+  font-size: 65px;
+}
+
+.core-title {
+  color: blanchedalmond;
+  font-size: 65px;
+}
+
+.core-posts {
+  font-size: 20px;
+}
+
+.tech-posts {
+  font-size: 20px;
+}
+
+/*link code*/
 
 .a {
   color: blanchedalmond;
+  text-decoration: none;
 }
 
 a:visited {
-  color: blanchedalmond;
+  color: rgb(226, 205, 172);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(226, 205, 172);
 }
