@@ -8,12 +8,12 @@
   margin-top: 63px;
 }
 
-.home {
+#home {
   float: left;
   margin-left: 100px;
 }
 
-.Kira {
+#Kira {
   color: blanchedalmond;
   font-family: 'Montserrat', sans-serif;
   src: url('/Montserrat-Regular.ttf');
@@ -32,7 +32,7 @@
     margin-top: 9vw;
   }
 
-  .Kira {
+  #Kira {
     float: left;
     font-size: 3.5rem;
     padding-top: 50px;
@@ -41,7 +41,7 @@
   }
 }
 
-.aboutme {
+#aboutme {
   color: blanchedalmond;
   text-align: center;
   font-size: 35px;
@@ -53,7 +53,7 @@
 }
 
 @media only screen and (max-width: 480px) {
-  .aboutme {
+  #aboutme {
     float: left;
     font-size: 5vw;
     font-weight: 300;
