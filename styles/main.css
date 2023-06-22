@@ -2,9 +2,10 @@
   border-style: solid;
   border-color: blanchedalmond;
   border-radius: 7%;
-  border-width: 4px;
+  border-width: 1%;
   float: left;
-  margin-left: 0px;
+  margin-left: 0vw;
+  margin-top: 63px;
 }
 
 .home {
@@ -16,11 +17,28 @@
   color: blanchedalmond;
   font-family: 'Montserrat', sans-serif;
   src: url('/Montserrat-Regular.ttf');
-  font-size: 100px;
+  font-size: 6vw;
   text-align: left;
   padding-top: 100px;
-  padding-left: 100px;
-  margin-left: 200px;
+  padding-left: 8vw;
+  margin-left: 400px;
+}
+
+@media only screen and (max-width: 480px) {
+  .blogpic {
+    float: left;
+    width: ;
+    margin-left: -50px;
+    margin-top: 9vw;
+  }
+
+  .Kira {
+    float: left;
+    font-size: 3.5rem;
+    padding-top: 50px;
+    padding-left: 25vw;
+    margin-left: -50px;
+  }
 }
 
 .aboutme {
@@ -31,6 +49,18 @@
   padding-left: 100px;
   margin-top: 50px;
   text-align: justify;
+}
+
+@media only screen and (max-width: 480px) {
+  .aboutme {
+    float: left;
+    font-size: 5vw;
+    font-weight: 300;
+    width: 70%;
+    padding-left: 50px;
+    margin-top: 50px;
+    text-align: justify;
+  }
 }
 
 /*div {
@@ -52,7 +82,16 @@ body {
   text-align: center;
   font-weight: 500;
   padding-top: 80px;
-  /* padding-bottom: 80px;*/
+  padding-bottom: 80px;
+}
+
+@media only screen and (max-width: 480px) {
+  .blog-title {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 500;
+    clear: left;
+  }
 }
 
 .techdiv {
@@ -103,6 +142,31 @@ body {
   font-size: 20px;
   text-decoration: none;
   line-height: 250%;
+}
+
+@media only screen and (max-width: 480px) {
+  .techdiv {
+    /*     float: left; */
+    width: 70%;
+    margin-left: 8vw;
+    margin-bottom: 8vw;
+    border-width: 5px;
+    border-style: solid;
+    border-color: blanchedalmond;
+    /*     padding-bottom: 100px;
+        padding-left: 50px; */
+  }
+
+  .corediv {
+    /*   float: right; */
+    width: 70%;
+    margin-right: 8vw;
+    border-width: 5px;
+    border-style: solid;
+    border-color: blanchedalmond;
+    /*   padding-bottom: 50px;
+      padding-left: 50px; */
+  }
 }
 
 /*link code*/
