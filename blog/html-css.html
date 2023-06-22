@@ -23,17 +23,25 @@
 
     <h1 class="blog-title">Border, Margin, and Padding</h1>
 
+    <p class="blog-post">
+      Border, margin, and padding work together in css in order to position and
+      define content on your page. They can be used either individually or in
+      combination, however there are a few key differences in both what they do
+      and how we use them.
+    </p>
+
     <div class="blogpostcontentdiv">
       <h2 class="blog-post-heading">Border</h2>
 
       <p class="blog-post">
-        Border is the literal border around something on your page e.g. picture
-        or text. can choose width, style, and colour of border, and came make
-        curved border by using border-radius. The distance this sits from your
-        item is controlled by the padding
+        Border is the visible border around something on your page e.g. picture
+        or text. The most common preferences are border width, style, and
+        colour. A curved border can be made by using border-radius. The
+        dimensions of each of these commands can be defined using any css
+        compatible length e.g. percentage, view height, or pixels.
       </p>
 
-      <img class="blogpostimagesmall" src="border-code.png" alt="border-code" />
+      <img class="blogpostimagesmall" src="bordercode.png" alt="border-code" />
 
       <p class="blog-post">
         In the above code, we can see that the border width, style, and colour
@@ -41,13 +49,14 @@
       </p>
     </div>
 
-    <div class="blog-post">
+    <div class="blogpostcontentdiv">
       <h2 class="blog-post-heading">Padding</h2>
 
       <p class="blog-post">
         Padding is the way we control the space between our content and it's
         borders. Left, top, right, and bottom padding can be added, as well as
-        the colour.
+        the colour. Just as with borders, padding can be defined using any css
+        compatible length e.g. percentage, view height, or pixels.
       </p>
 
       <img
@@ -62,7 +71,7 @@
         alt="codepaddingcode"
       />
 
-      <p>
+      <p class="blog-post">
         The code shown above creates the selected purple padding we see in the
         screenshot of my blog's core link section. As no colour was specified,
         the padding is transparent as we can see in the below image.
@@ -74,13 +83,15 @@
         alt="codepaddingclear"
       />
     </div>
-    <div class="blog-post">
+    <div class="blogpostcontentdiv">
       <h2 class="blog-post-heading">Margin</h2>
 
       <p class="blog-post">
         Margin is the space around the border of you content, either between the
         sides of the page, or between other items. Left, top, right, and bottom
-        margin can be adjusted, and it is always transparent.
+        margin can be adjusted, and it is always transparent. Just like in
+        padding, margin can be defined using any css compatible length e.g.
+        percentage, view height, or pixels.
       </p>
 
       <img
@@ -95,10 +106,10 @@
         alt="codemargincore"
       />
 
-      <p>
-        The margin-right: 10vw; shown in the above code screenshot results in
-        the large yellow margin seen above. Margin is always transparent, as can
-        be seen in the final result below.
+      <p class="blog-post">
+        The right margin shown in the above code screenshot results in the large
+        yellow margin seen above. Margin is always transparent, as can be seen
+        in the final result below.
       </p>
 
       <img
