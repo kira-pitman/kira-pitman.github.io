@@ -169,7 +169,6 @@ body {
 }
 
 /*blog post codes i.e. any little headings or titles for my blog and it's wee formatting*/
-
 .blog-post-heading {
   color: blanchedalmond;
   text-align: center;
@@ -184,8 +183,17 @@ body {
 }
 
 .blogpostimage {
+  /*below is for centering image on page*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  /*below is for border of image*/
+  border-style: solid;
+  border-color: blanchedalmond;
+  border-radius: 7%;
+  border-width: 1%;
 }
-
 /*link code*/
 
 .a:link {
