@@ -168,6 +168,24 @@ body {
   }
 }
 
+/*blog post codes i.e. any little headings or titles for my blog and it's wee formatting*/
+
+.blog-post-heading {
+  color: blanchedalmond;
+  text-align: center;
+  font-size: 4rem;
+}
+
+.blog-post {
+  color: blanchedalmond;
+  font-size: 1.5rem;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.blogpostimage {
+}
+
 /*link code*/
 
 .a:link {
