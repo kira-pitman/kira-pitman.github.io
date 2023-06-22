@@ -182,7 +182,7 @@ body {
   margin-right: 10vw;
 }
 
-.blogpostimage {
+.blogpostimagesmall {
   /*below is for centering image on page*/
   display: block;
   margin-left: auto;
@@ -193,17 +193,22 @@ body {
   border-color: blanchedalmond;
   border-radius: 7%;
   border-width: 1%;
-  /*below is creating margin around images so they don't overlap*/
+  /*below is creating margin below images so they don't overlap*/
   margin-bottom: 5vh;
 }
 
-/*individual image adjustments*/
-#purplepaddingcore {
+.blogpostimagelarge {
+  /*below is sizing of images*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 40%;
-}
-
-#yellowmargincore {
-  width: 40%;
+  /*below is border for large images*/
+  border-style: solid;
+  border-color: blanchedalmond;
+  border-width: 1%;
+  /*below is creating margin below images so they don't overlap*/
+  margin-bottom: 5vh;
 }
 
 /*link code*/
