@@ -57,12 +57,24 @@ body {
 
 .techdiv {
   float: left;
-  padding-left: 375px;
+  width: 500px;
+  margin-left: 270px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: blanchedalmond;
+  padding-bottom: 100px;
+  padding-left: 50px;
 }
 
 .corediv {
   float: right;
-  padding-right: 375px;
+  width: 500px;
+  margin-right: 270px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: blanchedalmond;
+  padding-bottom: 50px;
+  padding-left: 50px;
 }
 
 .tech-title {
