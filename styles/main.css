@@ -3,21 +3,19 @@
   font-family: 'Montserrat', sans-serif;
   src: url('/Montserrat-Regular.ttf');
   font-size: 100px;
-}
-
-h1 {
-  text-align: center;
+  text-align: left;
 }
 
 .aboutme {
   color: blanchedalmond;
   font-size: 35px;
   font-weight: 300;
+  width: 500px;
 }
 
-div {
+/*div {
   text-align: center;
-}
+}*/
 
 body {
   background-color: #2c2a2a;
@@ -31,18 +29,30 @@ body {
   color: blanchedalmond;
   font-size: 85px;
   text-align: center;
+  font-weight: 400;
+}
+
+.techdiv {
+  float: left;
+  padding-left: 250px;
+}
+
+.corediv {
+  float: right;
 }
 
 .tech-title {
   color: blanchedalmond;
   font-size: 60px;
   font-weight: 300;
+  width: 600px;
 }
 
 .core-title {
   color: blanchedalmond;
   font-size: 60px;
   font-weight: 300;
+  width: 600px;
 }
 
 .tech-posts {
