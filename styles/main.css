@@ -34,32 +34,32 @@ body {
 
 .tech-title {
   color: blanchedalmond;
-  font-size: 65px;
+  font-size: 60px;
 }
 
 .core-title {
   color: blanchedalmond;
-  font-size: 65px;
+  font-size: 60px;
 }
 
 .core-posts {
   font-size: 20px;
+  text-decoration: none;
 }
 
 .tech-posts {
   font-size: 20px;
+  text-decoration: none;
 }
 
 /*link code*/
 
-.a {
+.a:link {
   color: blanchedalmond;
-  text-decoration: none;
 }
 
 a:visited {
   color: rgb(226, 205, 172);
-  text-decoration: none;
 }
 
 a:hover {
