@@ -211,6 +211,15 @@ body {
   margin-bottom: 5vh;
 }
 
+@media only screen and (max-width: 810px) {
+  .blogpostimagesmall {
+    width: 70%;
+  }
+  .blogpostimagelarge {
+    width: 70%;
+  }
+}
+
 /*link code*/
 
 .a:link {
