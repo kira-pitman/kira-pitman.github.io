@@ -12,8 +12,9 @@
   color: blanchedalmond;
   font-size: 35px;
   font-weight: 300;
-  width: 500px;
+  width: 72.5%;
   padding-left: 100px;
+  text-align: ;
 }
 
 /*div {
@@ -34,16 +35,18 @@ body {
   font-size: 85px;
   text-align: center;
   font-weight: 400;
+  padding-top: 120px;
+  padding-bottom: 80px;
 }
 
 .techdiv {
   float: left;
-  padding-left: 250px;
+  padding-left: 375px;
 }
 
 .corediv {
   float: right;
-  padding-right: 250px;
+  padding-right: 375px;
 }
 
 .tech-title {
