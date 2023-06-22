@@ -196,6 +196,16 @@ body {
   /*below is creating margin around images so they don't overlap*/
   margin-bottom: 5vh;
 }
+
+/*individual image adjustments*/
+#purplepaddingcore {
+  width: 40%;
+}
+
+#yellowmargincore {
+  width: 40%;
+}
+
 /*link code*/
 
 .a:link {
