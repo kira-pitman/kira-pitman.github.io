@@ -12,6 +12,7 @@ h1 {
 .aboutme {
   color: blanchedalmond;
   font-size: 35px;
+  font-weight: 300;
 }
 
 div {
@@ -28,18 +29,20 @@ body {
 
 .blog-title {
   color: blanchedalmond;
-  font-size: 80px;
+  font-size: 85px;
   text-align: center;
 }
 
 .tech-title {
   color: blanchedalmond;
   font-size: 60px;
+  font-weight: 300;
 }
 
 .core-title {
   color: blanchedalmond;
   font-size: 60px;
+  font-weight: 300;
 }
 
 .tech-posts {
