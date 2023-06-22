@@ -42,14 +42,16 @@ body {
   font-size: 60px;
 }
 
-.core-posts {
-  font-size: 20px;
-  text-decoration: none;
-}
-
 .tech-posts {
   font-size: 20px;
   text-decoration: none;
+  line-height: 250%;
+}
+
+.core-posts {
+  font-size: 20px;
+  text-decoration: none;
+  line-height: 250%;
 }
 
 /*link code*/
@@ -59,9 +61,10 @@ body {
 }
 
 a:visited {
-  color: rgb(226, 205, 172);
+  color: rgb(230, 220, 203);
 }
 
 a:hover {
   color: rgb(226, 205, 172);
+  text-decoration: underline;
 }
