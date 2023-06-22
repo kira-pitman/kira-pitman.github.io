@@ -21,7 +21,7 @@
   text-align: left;
   padding-top: 100px;
   padding-left: 8vw;
-  margin-left: 400px;
+  margin-left: 300px;
 }
 
 @media only screen and (max-width: 480px) {
@@ -43,6 +43,7 @@
 
 .aboutme {
   color: blanchedalmond;
+  text-align: center;
   font-size: 35px;
   font-weight: 300;
   width: 70%;
@@ -96,8 +97,8 @@ body {
 
 .techdiv {
   float: left;
-  width: 500px;
-  margin-left: 270px;
+  width: 30vw;
+  margin-left: 10vw;
   border-width: 5px;
   border-style: solid;
   border-color: blanchedalmond;
@@ -107,8 +108,8 @@ body {
 
 .corediv {
   float: right;
-  width: 500px;
-  margin-right: 270px;
+  width: 30vw;
+  margin-right: 10vw;
   border-width: 5px;
   border-style: solid;
   border-color: blanchedalmond;
@@ -144,28 +145,26 @@ body {
   line-height: 250%;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 810px) {
   .techdiv {
-    /*     float: left; */
+    justify-content: center;
     width: 70%;
-    margin-left: 8vw;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 8vw;
     border-width: 5px;
     border-style: solid;
     border-color: blanchedalmond;
-    /*     padding-bottom: 100px;
-        padding-left: 50px; */
   }
-
   .corediv {
-    /*   float: right; */
+    justify-content: center;
     width: 70%;
-    margin-right: 8vw;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 8vw;
     border-width: 5px;
     border-style: solid;
     border-color: blanchedalmond;
-    /*   padding-bottom: 50px;
-      padding-left: 50px; */
   }
 }
 
