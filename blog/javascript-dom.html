@@ -48,10 +48,18 @@
   <h2 class="blog-post-heading">The DOM</h2>
   
   <p class="blog-post">
-    describe what the dom is and AN example of how you would interact with it
+    DOM stands for document origin model! It is interacted with when using javascript through the console part of web pages. It's a data structure and programming interface with a hierarchical structure that your browser uses to make sense of everything going on. Everything that makes up your DOM is known as nodes - these are mostly just elements, but can be anything! The DOM isn't a programming language but without it javascript wouldn't have any model or notion of web pages etc..., but all of this can be accessed and manipulated using the DOM and a scripting language like javascript. The DOM is gateway to all the HTML elements that make up what you see on your website page and allows any change made in it using javascript to be reflected in what you see in your browser. 
     </p>
   </br>
 </br>
+
+<p class="blog-post">One example of how you might interact with the DOM is if you want to interact with elements (the bits of information such as headings or paragraphs in your HTML code) in the HTML file. First search for the HTML element using document.querySelector(*id of thing you want to find*). This will find the first element in the HTML file with the specified id. To find all of the element in the HTML file, document.querySelctorAll(*id of thing you want to find*) can be used.
+
+Examples
+  document.querySelector('p') to find the first paragraph element in the HTML file. 
+  
+  document.querySeclectorAll('.dom') to find all elements in the dom class
+  </p>
 
 <h2 class="blog-post-heading">Arrays and Objects</h2>
 
