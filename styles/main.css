@@ -178,6 +178,21 @@ body {
 }
 
 /*blog post codes i.e. any little headings or titles for my blog and it's wee formatting*/
+
+.blog-post-question-extra-heading {
+  color: blanchedalmond;
+  text-align: center;
+  font-size: 5rem;
+}
+
+@media only screen and (max-width: 810px) {
+  .blog-post-question-extra-heading {
+    color: blanchedalmond;
+    text-align: center;
+    font-size: 5rem;
+  }
+}
+
 .blog-post-heading {
   color: blanchedalmond;
   text-align: center;
